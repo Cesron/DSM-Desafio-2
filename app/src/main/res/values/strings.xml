@@ -10,4 +10,16 @@
     <string name="menu_home">Inicio</string>
     <string name="menu_shop">Realizar Compra</string>
     <string name="menu_history">Historial de compras</string>
+
+    <string name="login_button">Ingresar</string>
+    <string name="login_register">Registrarse</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_textView">¿No posees cuenta?</string>
+
+    <string name="register_button">Registrarse</string>
+    <string name="register_login">Ingresar</string>
+    <string name="register_textView">¿Ya posees cuenta?</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Contraseña</string>
 </resources>

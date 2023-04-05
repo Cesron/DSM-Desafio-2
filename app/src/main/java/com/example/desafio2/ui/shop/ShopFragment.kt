@@ -8,8 +8,12 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.desafio2.databinding.FragmentShopBinding
+import com.google.firebase.database.FirebaseDatabase
 
 class ShopFragment : Fragment() {
+
+    private var database = FirebaseDatabase.getInstance()
+
 
     private var _binding: FragmentShopBinding? = null
 
