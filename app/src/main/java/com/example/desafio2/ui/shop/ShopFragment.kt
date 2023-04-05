@@ -11,20 +11,10 @@ import com.example.desafio2.databinding.FragmentShopBinding
 import com.google.firebase.database.FirebaseDatabase
 
 class ShopFragment : Fragment() {
-
-    private var database = FirebaseDatabase.getInstance()
-
-
-    private var _binding: FragmentShopBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
+    
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         val galleryViewModel =
             ViewModelProvider(this).get(ShopViewModel::class.java)
@@ -38,9 +28,9 @@ class ShopFragment : Fragment() {
         }
         return root
     }
-
     override fun onDestroyView() {
         super.onDestroyView()
+
         _binding = null
     }
 }
